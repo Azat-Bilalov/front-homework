@@ -1,0 +1,36 @@
+{
+  "name": "appuniq",
+  "version": "1.0.0",
+  "description": "Ad service for buying and selling unique products",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx cross-env SERVER=debug node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frontend-park-mail-ru/2023-1_Yula.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frontend-park-mail-ru/2023-1_Yula/issues"
+  },
+  "homepage": "https://github.com/frontend-park-mail-ru/2023-1_Yula#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cross-env": "^7.0.3",
+    "debug": "^4.3.4",
+    "express": "^4.18.2",
+    "handlebars": "^4.7.7",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.35.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "jsdoc": "^4.0.2"
+  }
+}
